@@ -1,0 +1,35 @@
+@import url('./https://fonts.googleapis.com/css?family=Lora:400,700');
+body {
+  background: linear-gradient(to bottom left,
+   #e8d6f3 0%,
+   #738bc2 51%);
+  padding: 2rem;
+  color: white;
+}
+h1 {
+  font-family: "Lora", serif;
+  margin-bottom: .9rem;
+}
+.hero {
+  position: relative;
+  width: fit-content;
+  max-width: calc(50vw - 32px);
+  margin: auto;
+  transform-origin: left;
+  color: white!important;
+}
+.hero::before {
+  content: 'Built by Manus — my personal AI agent'
+  position:absolute;
+  z-index: 10;
+  bottom: -2rem;
+  font-size:3em;
+  transform-origin: right center;
+   }
+ul {
+    list-style-type: none; 
+    display: flex;
+}
+li {
+  padding-right: .75rem;
+}}

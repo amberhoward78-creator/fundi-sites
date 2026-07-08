@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mannual</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: linear-gradient(135deg, #4caf50, #bdc3c7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+    }
+
+    .features-section {
+      background-color: #28a745; /* Hero section gradient - dark blue -> light green */
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .feature {
+      display: flex;
+      margin: 5px;
+      width: fit-content;
+    }
+
+    .feature-item {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      box-shadow: 3px 3px 10px grey;
+      padding: 8px;
+      margin: 4px;
+    }
+
+    .feature-item p {
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      display: block;
+    }
+
+    .footer {
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      width: fit-content;
+      margin: 40px auto;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        display: block !important; /* force hero section to be a single line on mobile */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Built by Manus — my personal AI agent</h1>
+    <!-- Hero Section Ends -->
+
+  <section class="features-section" id="features">
+    <h2>Capabilities</h2>
+        <div class="feature">
+          <img src="/assets/sandboxed-code-execution.png" alt="Sandboxed Code Execution" width="150" height="150"> <span><strong>Sandboxed Code Execution:</strong> Execute code without compromising your system. </span>
+        </div>
+        <div class="feature">
+          <img src="/assets/browser-automation.png" alt="Browser Automation" width="150" height="150"> <span><strong>Browser Automation:</strong> Automate browser tasks easily and quickly.</span>
+        </div>
+        <div class="feature">
+          <img src="/assets/persistent-memory.png" alt="Persistent Memory" width="150" height="150"> <span><strong>Persistent Memory:</strong> Stores data across sessions for easy access.</span>
+        </div>
+        <div class="feature">
+          <img src="/assets/multi-agent-orchestration.png" alt="Multi-Agent Orchestration" width="150" height="150"> <span><strong>MultAgent Orchestration:</strong> Coordinate multiple AI agents with ease.</span>
+        </div>
+        <div class="feature">
+          <img src="/assets/scheduled-tasks.png" alt="Scheduled Tasks" width="150" height="150"> <span><strong>Scheduled Tasks:</strong> Schedule tasks for automated execution at your discretion.</span>
+        </div>
+    <!-- Features Section Ends -->
+  </section>
+
+  <footer class="footer">
+    <p>&copy; Mannual 2023</p>
+  </footer>
+</body></html>
